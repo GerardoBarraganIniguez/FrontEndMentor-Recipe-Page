@@ -109,3 +109,23 @@ span{
     color: var(--brown);
 }
 
+@media (min-width: 600px) {
+    body{
+        display: flex;
+        justify-content: center;
+        background-color: var(--stone100);
+    }
+    .desktop-container{
+        max-width: 600px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 35px 35px 0 35px;
+    }
+    .main-container{
+        padding: 20px 0;
+    }
+    .omelette-img{
+        border-radius: 10px;
+        padding: 0;
+    }
+}
